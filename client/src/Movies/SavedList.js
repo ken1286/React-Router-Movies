@@ -7,13 +7,6 @@ export default class SavedList extends Component {
     super(props);
   }
 
-  // addToSavedList = () => {
-  //   this.setState({
-  //     savedList: [...this.state.savedList, props.movie]
-  //   })
-  //   console.log(this.state.savedList);
-  // }
-
   render() {
     return (
       <div className="saved-list">
